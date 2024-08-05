@@ -1,0 +1,68 @@
+/*---------------------------------------------------------------------------------
+
+Personal Website Stylesheet
+
+	Author:		Yuki Zheng
+	Version:	1.0	
+
+---------------------------------------------------------------------------------*/
+
+.html {
+	height: 100% !important;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.container {
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+/* Begin Fonts */
+body {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+/* font style for header on index page */
+.header-title{
+    font-weight: bold;
+    line-height: .7;
+    margin-bottom: 25px;
+    color: #ffffff;
+}
+.header-subtitle{
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: calc(12px + (19 - 12) * ((100vw - 300px) / (1600 - 300)));
+    margin-bottom: 40px;  
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+h1 {
+	font-size: 36px;
+}
+h2 {
+	font-size: 30px;
+}
+h3 {
+	font-size: 26px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+p {
+	font: 14px/1.5em "Roboto";
+}
+/* End Fonts */
