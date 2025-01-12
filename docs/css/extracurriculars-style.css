@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(252, 224, 228);
+}
+
+/*dotted border for each sections of page*/
+.page-section{
+    border-style: dotted none; 
+    border-color: rgb(240, 171, 171);
+    padding: 50px; 
+}
+.page-section h1{
+    margin-top: -35px;
+    text-align: center;
+}
+.page-section p{ 
+    text-align: center;
+    font-size: 17px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.buttons{
+    display: flex;
+    flex: 33.33%;
+    gap: -500px; 
+	justify-content: space-evenly;
+}
+.page-link{
+    background: rgb(252, 224, 228); 
+    font-weight: bold;
+
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 10px; 
+}
+.page-link:hover{
+    background: rgb(241, 195, 195); 
+    color: black;
+}
+.about-col img{
+    height: 300px; 
+    width: auto;
+    margin-left: 3%;
+    float: left; 
+
+    border-style: solid;
+    border-color:rgb(240, 171, 171);
+    border-width: 4px;
+    border-radius: 25px; 
+}
